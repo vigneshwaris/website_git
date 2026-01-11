@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+
+  <!-- External CSS (cascading level 1) -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Internal CSS (cascading level 2) -->
+  <style>
+    /* Internal style just for the banner heading */
+    .banner-title {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Inline style (cascading level 3) -->
+  <header class="banner" style="padding-top: 40px;">
+    <nav class="nav">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner-content">
+      <h2 class="banner-title">Hi, I'm Vigneshwari</h2>
+      <p>Web developer |Facutly | Tech enthusiast</p>
+      <a href="#projects" class="btn-primary">View My Work</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        I am a computer science faculty passionate about frontend development,
+        machine learning, and building clean user interfaces.
+      </p>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Climate Modeling</h3>
+          <p>Now casting using explainable & judgemental AI</p>
+          <a href="https://github.com/vigneshwaris/website_git/blob/main/notes.txt" class="project-link">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3>AI healthcare</h3>
+          <p>Lung cancer detection using deep learning.</p>
+          <a href="https://github.com/vigneshwaris/website_git/blob/main/notes.txt" class="project-link">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3>DeepFake</h3>
+          <p>fake news detection system.</p>
+          <a href="https://github.com/vigneshwaris/website_git/blob/main/notes.txt" class="project-link">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Email: s.vigneshwari@vit.ac.in</p>
+      <p>GitHub: <a href="https://github.com/vigneshwaris/website_git" target="_blank">VigneshwariS</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 VigneshwariS. All rights reserved.</p>
+  </footer>
+</body>
+</html>
