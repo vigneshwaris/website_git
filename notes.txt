@@ -1,0 +1,16 @@
+Climate Modeling using AI:
+AI enhances climate modeling by integrating massive datasets and predicting complex environmental patterns.
+It improves accuracy in forecasting extreme events and supports sustainable policy decisions.
+
+Deep Learning in Lung Cancer Detection:
+Deep learning models analyze medical images to identify subtle cancerous patterns often missed by humans.
+They enable early diagnosis, improving patient outcomes and supporting precision medicine.
+
+ Deepfake in Fake News Detection:
+AI systems detect deepfakes by analyzing inconsistencies in audio, video, and facial features.
+This helps curb misinformation, safeguarding media integrity and public trust.
+
+
+
+
+
